@@ -1,0 +1,22 @@
+#Prj_TeapotGL inctruction.
+
+This project build was made using Dev-C++.
+
+BUILD:
+For build this project you need to install mingw32-4.8.1
+https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/4.8.1/threads-posix/sjlj/
+or you can use default mingw from http://mingw.org.
+Also you need Dev-C++ IDE http://www.bloodshed.net/dev/devcpp.html for view project.
+If you have not Dev-C++ you can use emacs and build project by command "make && make run"
+
+USING:
+As program is very simple it had not many controls. For use you need to do several steps using menu bar.
+1. File>Model. It will load teapot model as resource in scene, but it not appear in scene.
+2. Scene>Insert. It will add loaded mesh in scene and you will see teapot.
+3. Scene>Explode. It does explode simulation which takes 3 second and after tepot will appear again.
+
+Ctrl+MouseMove is for move camera at teapot.
+
+NOTE:
+If by some reason you are unable to use mingw and Dev-C++ you can convert file Prj_TeapotGL to
+Prj_TeapotGL.exe and run to see example. File Prj_TeapotGL is located in project folder.
